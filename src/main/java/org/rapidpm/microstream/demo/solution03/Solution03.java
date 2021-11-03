@@ -15,7 +15,7 @@ public class Solution03 {
     RootNode rootNode = new RootNode();
 
     final EmbeddedStorageManager storageManager = EmbeddedStorage.start(
-        rootNode, Paths.get("_data")
+        rootNode, Paths.get("_data/solution03")
     );
     storageManager.setRoot(rootNode);
     storageManager.storeRoot();
